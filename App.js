@@ -23,7 +23,7 @@ export default class App extends Component<Props> {
       <View style={styles.container}>
           <Image style={styles.imageStyle} source={require('../prototype/src/images/food.jpg')} />
           <Text style={styles.textStyle}>Are you an</Text>
-          <Text style={styles.textStyle}>Amateur Cook</Text>
+          <Text style={styles.textStyle}>Amateur Cooks</Text>
           <Text style={styles.textStyle}>or</Text>
           <Text style={styles.textStyle}>Foodie</Text>
           <ImageBackground style={styles.imageStyle} source={require('../prototype/src/images/restaurant.jpg')}>
